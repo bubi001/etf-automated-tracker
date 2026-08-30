@@ -1,0 +1,36 @@
+name: Automated ETF Monitor
+on:
+  schedule:
+    - cron: '30 20 * * 1-5' # Fires Monday through Friday at 8:30 PM UTC (4:30 PM EST right after US markets close)
+  workflow_dispatch:      # Gives you a manual override execution trigger button on the web interface
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Important: Gives the script explicit clearance to overwrite data records inside your repository
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Initialize Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install System Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute Live ETF Analysis Pipeline
+        run: python etf_scanner.py
+
+      - name: Commit and Persist Execution Logs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          git add etf_scan_report.csv
+          git commit -m "Auto-update ETF Matrix: $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes detected."
+          git push
