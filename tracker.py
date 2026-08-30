@@ -21,7 +21,7 @@ ASSETS = {
     "Wipro ADR": {"ticker": "WIT", "threshold": 2.0},
     "ICICI Bank ADR": {"ticker": "IBN", "threshold": 1.5},
     "Dr. Reddy ADR": {"ticker": "RDY", "threshold": 1.5},
-    "Reliance Industries": {"ticker": "RELIANCE.NS", "threshold": 1.5}
+      "Reliance Industries GDR": {"ticker": "RIGD.IL", "threshold": 1.5} # USD-denominated LSE GDR
 }
 
 def send_alert(message):
