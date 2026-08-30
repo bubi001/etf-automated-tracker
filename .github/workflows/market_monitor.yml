@@ -1,0 +1,32 @@
+name: Automated Market Price Monitor
+
+on:
+  schedule:
+    # Executes every 15 minutes, Monday through Friday (Market Days)
+    - cron: '*/15 * * * 1-5'
+  workflow_dispatch: # Allows manual trigger within the GitHub UI
+
+jobs:
+  track-and-alert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone Repository Codebase
+      uses: actions/checkout@v4
+
+    - name: Initialize Python Runtime
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Runtime Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install yfinance requests
+
+    - name: Execute Live Price Engine
+      env:
+        # Link your alerting platform secrets securely via repo management
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: python tracker.py
