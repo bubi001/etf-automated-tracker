@@ -1,0 +1,10 @@
+Date,ETF,Price,Closest_Supports,Closest_Resistances,Moving_Average_Trend,Volume_Alert
+2026-08-30,SPY,769.35,"[np.float64(661.93), np.float64(746.11)]",[],Full Bullish Stack [No New Cross Today],Normal (0.92x)
+2026-08-30,QQQ,716.43,"[np.float64(610.26), np.float64(715.25)]",[],Full Bullish Stack [No New Cross Today],Normal (1.02x)
+2026-08-30,IWM,295.75,"[np.float64(249.51), np.float64(291.05)]",[],Full Bullish Stack [No New Cross Today],Normal (1.14x)
+2026-08-30,DIA,535.06,"[np.float64(427.49), np.float64(499.18)]",[],Full Bullish Stack [No New Cross Today],Normal (0.82x)
+2026-08-30,GLD,408.89,"[np.float64(306.51), np.float64(388.73)]",[np.float64(460.09)],Full Bullish Stack [No New Cross Today],Normal (2.14x)
+2026-08-30,VTI,379.36,"[np.float64(287.25), np.float64(346.2)]",[],Full Bullish Stack [No New Cross Today],Normal (0.92x)
+2026-08-30,VOO,707.24,"[np.float64(607.84), np.float64(685.99)]",[],Full Bullish Stack [No New Cross Today],Normal (1.29x)
+2026-08-30,XLF,58.1,"[np.float64(45.43), np.float64(52.25)]",[],Full Bullish Stack [No New Cross Today],Normal (0.91x)
+2026-08-30,XLK,185.69,"[np.float64(138.45), np.float64(182.2)]",[],Full Bullish Stack [No New Cross Today],Normal (0.94x)
