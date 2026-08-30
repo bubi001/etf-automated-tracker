@@ -5,7 +5,19 @@ from sklearn.cluster import AgglomerativeClustering
 
 # --- CONFIGURATION ---
 # List out any liquid ETFs you want tracked here
-ETF_TICKERS = ["SPY", "QQQ", "IWM", "DIA", "GLD", "VTI", "VOO", "XLF", "XLK"]
+ # --- CONFIGURATION (INDIAN NSE ETFS) ---
+# .NS suffix is required for yfinance to fetch data from the National Stock Exchange of India
+ETF_TICKERS = [
+    "NIFTYBEES.NS",   # Nippon India Nifty 50 ETF (Core Index)
+    "BANKBEES.NS",    # Nippon India Nifty Bank ETF (Banking Sector)
+    "ITBEES.NS",      # Nippon India Nifty IT ETF (Tech Sector)
+    "JUNIORBEES.NS",  # Nippon India Nifty Next 50 ETF (Next 50 Large Caps)
+    "MID150BEES.NS",  # Nippon India Nifty Midcap 150 ETF (Mid Caps)
+    "GOLDBEES.NS",    # Nippon India Gold ETF (Gold Commodities)
+    "SILVERBEES.NS",  # Nippon India Silver ETF (Silver Commodities)
+    "MON100.NS",      # Motilal Oswal Nasdaq 100 ETF (US Tech Exposure)
+    "CPSEETF.NS"      # Nippon India CPSE ETF (Public Sector Undertakings)
+]
 
 def get_etf_data(ticker, period="6y"):
     try:
