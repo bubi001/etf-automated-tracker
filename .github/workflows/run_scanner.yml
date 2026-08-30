@@ -1,16 +1,18 @@
-name: Automated ETF Monitor
+name: Automated Indian ETF Monitor
+
 on:
   schedule:
-     schedule:
-    - cron: '30 10 * * 1-5' # Runs Monday-Friday at 10:30 AM UTC (4:00 PM IST - just after Indian market close)
-
-  workflow_dispatch:      # Gives you a manual override execution trigger button on the web interface
+    # 10:30 AM UTC translates exactly to 4:00 PM IST (Monday through Friday)
+    # This triggers the script right after the Indian market closes at 3:30 PM IST.
+    - cron: '30 10 * * 1-5'
+  workflow_dispatch:      # Retains the manual "Run workflow" trigger button on GitHub
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Important: Gives the script explicit clearance to overwrite data records inside your repository
+      contents: write     # Grants the workflow permission to save changes back to your repository
+      
     steps:
       - name: Checkout Repository Code
         uses: actions/checkout@v4
@@ -34,5 +36,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@://github.com"
           git add etf_scan_report.csv
-          git commit -m "Auto-update ETF Matrix: $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes detected."
+          git commit -m "Auto-update Indian ETF Matrix: $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No trend shifts or data changes detected today."
           git push
