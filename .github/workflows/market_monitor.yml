@@ -1,14 +1,15 @@
-name: Automated Market Price Monitor
+name: Automated Market Price Monitor with CSV Logging
 
 on:
   schedule:
-    # Executes every 15 minutes, Monday through Friday (Market Days)
     - cron: '*/15 * * * 1-5'
-  workflow_dispatch: # Allows manual trigger within the GitHub UI
+  workflow_dispatch:
 
 jobs:
   track-and-alert:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Crucial: Allows Action runner to write file modifications
 
     steps:
     - name: Clone Repository Codebase
@@ -22,11 +23,19 @@ jobs:
     - name: Install Runtime Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install yfinance requests
+        pip install yfinance requests pandas
 
     - name: Execute Live Price Engine
       env:
-        # Link your alerting platform secrets securely via repo management
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python tracker.py
+
+    - name: Commit and Push CSV Log Updates
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        git add market_price_history.csv || true
+        # Prevent loop by including [skip ci] flags
+        git commit -m "chore: automated history update [skip ci]" || echo "No data alterations detected"
+        git push origin main || echo "No changes to sync"
