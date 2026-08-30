@@ -1,7 +1,9 @@
 name: Automated ETF Monitor
 on:
   schedule:
-    - cron: '30 20 * * 1-5' # Fires Monday through Friday at 8:30 PM UTC (4:30 PM EST right after US markets close)
+     schedule:
+    - cron: '30 10 * * 1-5' # Runs Monday-Friday at 10:30 AM UTC (4:00 PM IST - just after Indian market close)
+
   workflow_dispatch:      # Gives you a manual override execution trigger button on the web interface
 
 jobs:
