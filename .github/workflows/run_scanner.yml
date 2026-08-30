@@ -2,15 +2,14 @@ name: Automated Indian ETF Monitor
 
 on:
   schedule:
-    # Triggers at 4:00 PM IST (10:30 AM UTC) Monday through Friday
     - cron: '30 10 * * 1-5'
-  workflow_dispatch:      # Manual trigger button
+  workflow_dispatch:
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Gives GitHub Actions permission to write to your repo
+      contents: write
       
     steps:
       - name: Checkout Repository Code
@@ -20,7 +19,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          # Removed automatic pip caching to prevent empty directory failures on cold runs
 
       - name: Install System Dependencies
         run: |
@@ -33,11 +31,7 @@ jobs:
       - name: Commit and Persist Execution Logs
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # Force tracking of the generated report file
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
           git add etf_scan_report.csv || true
-          
-          # The "|| true" statement prevents GitHub from throwing a error code if there are no text changes
           git commit -m "Auto-update Indian ETF Matrix: $(date -u +'%Y-%m-%d %H:%M UTC')" || true
           git push || true
