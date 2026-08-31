@@ -86,3 +86,7 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Silver Spot,SI=F,66.86,-0.12,2026-08-31,04:38:23
 ,Crude Oil Spot,CL=F,85.33,0.01,2026-08-31,04:38:23
 ,Nifty 50 Index,^NSEI,24039.3,-0.01,2026-08-31,04:38:23
+,Gold Spot,GC=F,4467.8,-0.02,2026-08-31,04:53:07
+,Silver Spot,SI=F,66.93,-0.03,2026-08-31,04:53:07
+,Crude Oil Spot,CL=F,85.22,0.0,2026-08-31,04:53:07
+,Nifty 50 Index,^NSEI,24014.5,0.02,2026-08-31,04:53:07
