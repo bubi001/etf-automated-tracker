@@ -205,3 +205,5 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4493.6,0.04,2026-08-31,12:53:15
 ,Silver Spot,SI=F,67.59,0.03,2026-08-31,12:53:15
 ,Crude Oil Spot,CL=F,86.05,0.0,2026-08-31,12:53:15
+,Gold Spot,GC=F,4489.1,0.04,2026-08-31,13:08:29
+,Silver Spot,SI=F,67.46,0.04,2026-08-31,13:08:29
