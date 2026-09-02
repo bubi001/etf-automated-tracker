@@ -1061,3 +1061,5 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,ICICI Bank ADR,IBN,30.58,0.0,2026-09-02,20:16:03
 ,Gold Spot,GC=F,4434.6,0.01,2026-09-02,20:42:57
 ,Crude Oil Spot,CL=F,90.7,0.1,2026-09-02,20:42:57
+,Gold Spot,GC=F,4434.8,0.0,2026-09-02,20:56:00
+,Silver Spot,SI=F,65.9,-0.03,2026-09-02,20:56:00
