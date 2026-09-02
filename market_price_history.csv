@@ -1059,3 +1059,5 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,HDFC Bank ADR,HDB,23.2,0.13,2026-09-02,20:16:03
 ,Infosys ADR,INFY,11.97,-0.17,2026-09-02,20:16:03
 ,ICICI Bank ADR,IBN,30.58,0.0,2026-09-02,20:16:03
+,Gold Spot,GC=F,4434.6,0.01,2026-09-02,20:42:57
+,Crude Oil Spot,CL=F,90.7,0.1,2026-09-02,20:42:57
