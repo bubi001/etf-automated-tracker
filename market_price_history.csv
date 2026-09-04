@@ -1490,3 +1490,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Silver Spot,SI=F,67.46,0.0,2026-09-04,10:56:28
 ,Crude Oil Spot,CL=F,90.45,-0.11,2026-09-04,10:56:28
 ,Reliance Industries GDR,RIGD.IL,56.0,0.36,2026-09-04,10:56:28
+,Gold Spot,GC=F,4516.9,-0.0,2026-09-04,11:17:07
+,Silver Spot,SI=F,67.38,-0.06,2026-09-04,11:17:07
+,Crude Oil Spot,CL=F,90.49,0.01,2026-09-04,11:17:07
