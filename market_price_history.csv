@@ -1693,3 +1693,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,NASDAQ 100 Index,^NDX,29542.65,0.0,2026-09-04,20:15:17
 ,HDFC Bank ADR,HDB,23.2,0.17,2026-09-04,20:15:17
 ,Infosys ADR,INFY,11.68,0.0,2026-09-04,20:15:17
+,Gold Spot,GC=F,4477.4,-0.01,2026-09-04,20:31:57
+,Silver Spot,SI=F,66.79,0.0,2026-09-04,20:31:57
+,Crude Oil Spot,CL=F,91.26,-0.04,2026-09-04,20:31:57
