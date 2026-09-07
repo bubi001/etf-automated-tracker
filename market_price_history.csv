@@ -1716,3 +1716,5 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Nifty 50 Index,^NSEI,23767.4,-0.01,2026-09-07,06:50:28
 ,Nifty 50 Index,^NSEI,23752.0,-0.01,2026-09-07,07:18:24
 ,Reliance Industries GDR,RIGD.IL,55.0,0.18,2026-09-07,07:18:24
+,Nifty 50 Index,^NSEI,23749.7,-0.0,2026-09-07,07:45:05
+,Reliance Industries GDR,RIGD.IL,55.1,0.0,2026-09-07,07:45:05
