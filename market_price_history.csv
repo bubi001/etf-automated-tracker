@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-2026-08-30 19:25:19,Crude Oil Spot,CL=F,83.4,-0.04,,
-2026-08-30 19:25:19,NASDAQ 100 Index,^NDX,29430.2,-0.04,,
-2026-08-30 19:25:19,Nifty 50 Index,^NSEI,24175.65,0.14,,
 2026-08-30 19:25:19,HDFC Bank ADR,HDB,23.08,0.09,,
 2026-08-30 19:25:19,Infosys ADR,INFY,12.06,-0.21,,
 2026-08-30 19:25:19,Wipro ADR,WIT,1.82,0.73,,
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4403.0,-0.0,2026-09-08,23:44:24
 ,Silver Spot,SI=F,66.38,0.03,2026-09-08,23:44:24
 ,Crude Oil Spot,CL=F,94.38,0.01,2026-09-08,23:44:24
+,Gold Spot,GC=F,4399.4,0.01,2026-09-08,23:57:23
+,Silver Spot,SI=F,66.29,0.05,2026-09-08,23:57:23
+,Crude Oil Spot,CL=F,94.55,0.0,2026-09-08,23:57:23
