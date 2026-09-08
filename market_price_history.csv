@@ -1737,3 +1737,7 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Reliance Industries GDR,RIGD.IL,54.8,0.0,2026-09-07,14:44:25
 ,Reliance Industries GDR,RIGD.IL,55.0,0.0,2026-09-07,14:59:13
 ,Nifty 50 Index,^NSEI,23671.4,-0.02,2026-09-08,03:58:18
+,Gold Spot,GC=F,4486.0,-0.0,2026-09-08,04:20:07
+,Silver Spot,SI=F,67.71,0.03,2026-09-08,04:20:07
+,Crude Oil Spot,CL=F,92.89,0.0,2026-09-08,04:20:07
+,Nifty 50 Index,^NSEI,23690.1,0.02,2026-09-08,04:20:07
