@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Crude Oil Spot,CL=F,84.83,-0.02,2026-08-31,07:53:29
-,Nifty 50 Index,^NSEI,24067.4,0.02,2026-08-31,07:53:29
-,Gold Spot,GC=F,4491.5,0.0,2026-08-31,08:09:03
 ,Silver Spot,SI=F,67.66,0.13,2026-08-31,08:09:03
 ,Crude Oil Spot,CL=F,85.4,0.02,2026-08-31,08:09:03
 ,Nifty 50 Index,^NSEI,24065.15,-0.0,2026-08-31,08:09:03
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Silver Spot,SI=F,66.78,0.0,2026-09-09,12:24:35
 ,Crude Oil Spot,CL=F,95.76,0.03,2026-09-09,12:24:35
 ,Reliance Industries GDR,RIGD.IL,53.6,0.0,2026-09-09,12:24:35
+,Gold Spot,GC=F,4437.6,-0.03,2026-09-09,12:48:47
+,Silver Spot,SI=F,66.71,-0.06,2026-09-09,12:48:47
+,Crude Oil Spot,CL=F,95.83,-0.07,2026-09-09,12:48:47
