@@ -1,11 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Crude Oil Spot,CL=F,90.5,-0.1,2026-09-02,07:15:45
-,Nifty 50 Index,^NSEI,23860.95,-0.02,2026-09-02,07:15:45
-,Reliance Industries GDR,RIGD.IL,54.6,0.55,2026-09-02,07:15:45
-,Gold Spot,GC=F,4375.5,-0.01,2026-09-02,07:42:07
-,Silver Spot,SI=F,64.63,0.03,2026-09-02,07:42:07
-,Crude Oil Spot,CL=F,90.15,-0.01,2026-09-02,07:42:07
-,Nifty 50 Index,^NSEI,23867.4,-0.01,2026-09-02,07:42:07
 ,Reliance Industries GDR,RIGD.IL,54.9,0.18,2026-09-02,07:42:07
 ,Gold Spot,GC=F,4369.3,0.0,2026-09-02,07:55:23
 ,Silver Spot,SI=F,64.55,0.02,2026-09-02,07:55:23
@@ -1999,3 +1992,10 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Crude Oil Spot,CL=F,99.17,-0.1,2026-09-11,14:58:33
 ,NASDAQ 100 Index,^NDX,29351.49,0.01,2026-09-11,14:58:33
 ,Infosys ADR,INFY,10.86,0.0,2026-09-11,14:58:33
+,Gold Spot,GC=F,4405.0,-0.01,2026-09-11,15:19:01
+,Silver Spot,SI=F,64.86,0.0,2026-09-11,15:19:01
+,Crude Oil Spot,CL=F,99.6,0.03,2026-09-11,15:19:01
+,NASDAQ 100 Index,^NDX,29419.06,0.0,2026-09-11,15:19:01
+,ICICI Bank ADR,IBN,29.02,0.03,2026-09-11,15:19:01
+,Dr. Reddy ADR,RDY,11.94,0.0,2026-09-11,15:19:01
+,Reliance Industries GDR,RIGD.IL,52.7,0.0,2026-09-11,15:19:01
