@@ -1,6 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Dr. Reddy ADR,RDY,12.16,0.0,2026-09-02,19:39:14
-,Gold Spot,GC=F,4431.2,0.0,2026-09-02,19:53:05
 ,Silver Spot,SI=F,65.82,0.0,2026-09-02,19:53:05
 ,Crude Oil Spot,CL=F,90.98,-0.01,2026-09-02,19:53:05
 ,NASDAQ 100 Index,^NDX,29128.54,0.01,2026-09-02,19:53:05
@@ -1999,3 +1997,5 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4334.9,-0.01,2026-09-14,11:19:49
 ,Silver Spot,SI=F,63.37,0.03,2026-09-14,11:19:49
 ,Crude Oil Spot,CL=F,102.48,-0.09,2026-09-14,11:19:49
+,Silver Spot,SI=F,63.53,0.03,2026-09-14,11:44:58
+,Crude Oil Spot,CL=F,103.24,0.05,2026-09-14,11:44:58
