@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Dr. Reddy ADR,RDY,12.06,-0.33,2026-09-03,13:43:38
-,Reliance Industries GDR,RIGD.IL,55.3,0.0,2026-09-03,13:43:38
-,Gold Spot,GC=F,4507.6,-0.02,2026-09-03,13:57:55
 ,Silver Spot,SI=F,66.66,-0.04,2026-09-03,13:57:55
 ,Crude Oil Spot,CL=F,92.18,0.04,2026-09-03,13:57:55
 ,NASDAQ 100 Index,^NDX,29269.21,-0.07,2026-09-03,13:57:55
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4337.8,-0.01,2026-09-14,22:18:41
 ,Silver Spot,SI=F,63.71,-0.02,2026-09-14,22:18:41
 ,Crude Oil Spot,CL=F,101.93,-0.02,2026-09-14,22:18:41
+,Gold Spot,GC=F,4337.7,-0.01,2026-09-14,22:43:42
+,Silver Spot,SI=F,63.74,-0.03,2026-09-14,22:43:42
+,Crude Oil Spot,CL=F,101.88,-0.03,2026-09-14,22:43:42
