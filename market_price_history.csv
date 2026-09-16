@@ -1,8 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Dr. Reddy ADR,RDY,11.97,0.0,2026-09-04,15:42:48
-,Reliance Industries GDR,RIGD.IL,56.0,0.18,2026-09-04,15:42:48
-,Gold Spot,GC=F,4490.8,0.02,2026-09-04,15:55:56
-,Silver Spot,SI=F,66.91,0.03,2026-09-04,15:55:56
 ,Crude Oil Spot,CL=F,90.74,-0.03,2026-09-04,15:55:56
 ,NASDAQ 100 Index,^NDX,29473.39,0.0,2026-09-04,15:55:56
 ,HDFC Bank ADR,HDB,23.25,0.09,2026-09-04,15:55:56
@@ -1999,3 +1995,7 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Silver Spot,SI=F,65.21,0.0,2026-09-16,05:43:05
 ,Crude Oil Spot,CL=F,104.69,-0.05,2026-09-16,05:43:05
 ,Nifty 50 Index,^NSEI,23262.25,-0.0,2026-09-16,05:43:05
+,Gold Spot,GC=F,4372.7,-0.01,2026-09-16,05:56:48
+,Silver Spot,SI=F,65.29,-0.05,2026-09-16,05:56:48
+,Crude Oil Spot,CL=F,104.54,-0.01,2026-09-16,05:56:48
+,Nifty 50 Index,^NSEI,23230.25,-0.03,2026-09-16,05:56:48
