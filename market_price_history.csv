@@ -1,8 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,ICICI Bank ADR,IBN,29.56,-0.03,2026-09-08,18:47:03
-,Dr. Reddy ADR,RDY,11.89,0.0,2026-09-08,18:47:03
-,Gold Spot,GC=F,4419.0,-0.02,2026-09-08,19:14:39
-,Silver Spot,SI=F,66.69,0.0,2026-09-08,19:14:39
 ,Crude Oil Spot,CL=F,93.62,0.03,2026-09-08,19:14:39
 ,NASDAQ 100 Index,^NDX,29543.85,-0.01,2026-09-08,19:14:39
 ,HDFC Bank ADR,HDB,22.49,0.0,2026-09-08,19:14:39
@@ -1999,3 +1995,7 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Silver Spot,SI=F,64.4,-0.03,2026-09-17,09:57:45
 ,Crude Oil Spot,CL=F,101.26,0.0,2026-09-17,09:57:45
 ,Nifty 50 Index,^NSEI,23294.35,0.0,2026-09-17,09:57:45
+,Gold Spot,GC=F,4347.9,-0.01,2026-09-17,10:19:22
+,Silver Spot,SI=F,64.35,-0.03,2026-09-17,10:19:22
+,Crude Oil Spot,CL=F,100.75,0.07,2026-09-17,10:19:22
+,Nifty 50 Index,^NSEI,23270.6,0.0,2026-09-17,10:19:22
