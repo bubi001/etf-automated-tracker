@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Crude Oil Spot,CL=F,99.85,0.02,2026-09-10,14:59:29
-,NASDAQ 100 Index,^NDX,29237.05,0.01,2026-09-10,14:59:29
-,HDFC Bank ADR,HDB,21.83,0.0,2026-09-10,14:59:29
 ,Infosys ADR,INFY,10.85,-0.09,2026-09-10,14:59:29
 ,ICICI Bank ADR,IBN,28.86,0.03,2026-09-10,14:59:29
 ,Dr. Reddy ADR,RDY,11.69,0.0,2026-09-10,14:59:29
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Crude Oil Spot,CL=F,95.43,0.0,2026-09-18,20:32:06
 ,Infosys ADR,INFY,10.83,0.09,2026-09-18,20:32:06
 ,Wipro ADR,WIT,1.65,-0.6,2026-09-18,20:32:06
+,Gold Spot,GC=F,4418.8,-0.0,2026-09-18,20:53:31
+,Silver Spot,SI=F,66.87,-0.01,2026-09-18,20:53:31
+,Crude Oil Spot,CL=F,95.37,0.0,2026-09-18,20:53:31
