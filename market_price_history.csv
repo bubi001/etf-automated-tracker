@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Silver Spot,SI=F,65.37,0.06,2026-09-11,13:43:58
-,Crude Oil Spot,CL=F,98.9,-0.04,2026-09-11,13:43:58
-,NASDAQ 100 Index,^NDX,29386.96,-0.02,2026-09-11,13:43:58
 ,HDFC Bank ADR,HDB,22.4,0.04,2026-09-11,13:43:58
 ,Infosys ADR,INFY,10.85,0.0,2026-09-11,13:43:58
 ,Wipro ADR,WIT,1.68,-0.59,2026-09-11,13:43:58
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4380.2,0.0,2026-09-21,20:54:03
 ,Silver Spot,SI=F,66.49,-0.02,2026-09-21,20:54:03
 ,Crude Oil Spot,CL=F,92.16,0.01,2026-09-21,20:54:03
+,Gold Spot,GC=F,4381.0,-0.02,2026-09-21,21:15:09
+,Silver Spot,SI=F,66.53,-0.02,2026-09-21,21:15:09
+,Crude Oil Spot,CL=F,91.97,0.01,2026-09-21,21:15:09
