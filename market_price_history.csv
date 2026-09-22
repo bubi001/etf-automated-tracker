@@ -1,9 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Gold Spot,GC=F,4404.5,0.01,2026-09-11,17:54:24
-,Silver Spot,SI=F,65.04,0.02,2026-09-11,17:54:24
-,Crude Oil Spot,CL=F,99.89,0.06,2026-09-11,17:54:24
-,NASDAQ 100 Index,^NDX,29445.99,-0.0,2026-09-11,17:54:24
-,HDFC Bank ADR,HDB,23.31,-0.17,2026-09-11,17:54:24
 ,Infosys ADR,INFY,10.95,-0.09,2026-09-11,17:54:24
 ,Wipro ADR,WIT,1.68,0.0,2026-09-11,17:54:24
 ,ICICI Bank ADR,IBN,29.33,-0.03,2026-09-11,17:54:24
@@ -1999,3 +1994,8 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Crude Oil Spot,CL=F,93.01,-0.05,2026-09-22,07:42:52
 ,Nifty 50 Index,^NSEI,23337.8,-0.01,2026-09-22,07:42:52
 ,Reliance Industries GDR,RIGD.IL,51.6,-0.19,2026-09-22,07:42:52
+,Gold Spot,GC=F,4351.9,0.09,2026-09-22,07:56:56
+,Silver Spot,SI=F,65.69,0.14,2026-09-22,07:56:56
+,Crude Oil Spot,CL=F,92.95,-0.02,2026-09-22,07:56:56
+,Nifty 50 Index,^NSEI,23330.1,-0.01,2026-09-22,07:56:56
+,Reliance Industries GDR,RIGD.IL,51.5,-0.19,2026-09-22,07:56:56
