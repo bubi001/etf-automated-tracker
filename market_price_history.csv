@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Crude Oil Spot,CL=F,99.17,-0.1,2026-09-11,14:58:33
-,NASDAQ 100 Index,^NDX,29351.49,0.01,2026-09-11,14:58:33
-,Infosys ADR,INFY,10.86,0.0,2026-09-11,14:58:33
 ,Gold Spot,GC=F,4405.0,-0.01,2026-09-11,15:19:01
 ,Silver Spot,SI=F,64.86,0.0,2026-09-11,15:19:01
 ,Crude Oil Spot,CL=F,99.6,0.03,2026-09-11,15:19:01
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4391.3,-0.01,2026-09-22,01:53:02
 ,Silver Spot,SI=F,66.85,0.06,2026-09-22,01:53:02
 ,Crude Oil Spot,CL=F,92.95,0.0,2026-09-22,01:53:02
+,Gold Spot,GC=F,4386.9,-0.08,2026-09-22,02:15:33
+,Silver Spot,SI=F,66.8,-0.07,2026-09-22,02:15:33
+,Crude Oil Spot,CL=F,92.84,-0.04,2026-09-22,02:15:33
