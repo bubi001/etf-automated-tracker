@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,NASDAQ 100 Index,^NDX,29278.71,0.01,2026-09-14,17:55:13
-,HDFC Bank ADR,HDB,23.09,-0.04,2026-09-14,17:55:13
-,Infosys ADR,INFY,11.59,0.0,2026-09-14,17:55:13
 ,ICICI Bank ADR,IBN,29.27,0.03,2026-09-14,17:55:13
 ,Dr. Reddy ADR,RDY,11.89,-0.08,2026-09-14,17:55:13
 ,Gold Spot,GC=F,4351.6,0.01,2026-09-14,18:18:23
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4403.3,0.03,2026-09-22,23:29:44
 ,Silver Spot,SI=F,68.0,0.06,2026-09-22,23:29:44
 ,Crude Oil Spot,CL=F,89.71,0.01,2026-09-22,23:29:44
+,Gold Spot,GC=F,4402.2,0.0,2026-09-22,23:43:07
+,Silver Spot,SI=F,67.96,0.03,2026-09-22,23:43:07
+,Crude Oil Spot,CL=F,89.66,-0.01,2026-09-22,23:43:07
