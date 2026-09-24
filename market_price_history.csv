@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,Wipro ADR,WIT,1.7,0.59,2026-09-16,18:19:40
-,ICICI Bank ADR,IBN,28.26,0.04,2026-09-16,18:19:40
-,Dr. Reddy ADR,RDY,11.61,0.09,2026-09-16,18:19:40
 ,Gold Spot,GC=F,4316.7,0.03,2026-09-16,18:46:17
 ,Silver Spot,SI=F,63.71,0.03,2026-09-16,18:46:17
 ,Crude Oil Spot,CL=F,102.83,0.01,2026-09-16,18:46:17
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Gold Spot,GC=F,4307.1,-0.01,2026-09-24,22:41:06
 ,Silver Spot,SI=F,64.18,-0.05,2026-09-24,22:41:06
 ,Crude Oil Spot,CL=F,94.42,0.12,2026-09-24,22:41:06
+,Gold Spot,GC=F,4306.3,0.01,2026-09-24,22:55:36
+,Silver Spot,SI=F,64.19,0.02,2026-09-24,22:55:36
+,Crude Oil Spot,CL=F,94.45,0.03,2026-09-24,22:55:36
