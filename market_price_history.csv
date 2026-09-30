@@ -1,7 +1,4 @@
 Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
-,HDFC Bank ADR,HDB,22.66,-0.04,2026-09-17,20:19:12
-,ICICI Bank ADR,IBN,28.18,-0.07,2026-09-17,20:19:12
-,Dr. Reddy ADR,RDY,12.17,0.0,2026-09-17,20:19:12
 ,Gold Spot,GC=F,4381.1,0.0,2026-09-17,20:41:36
 ,Silver Spot,SI=F,65.72,-0.05,2026-09-17,20:41:36
 ,Crude Oil Spot,CL=F,101.27,0.04,2026-09-17,20:41:36
@@ -1999,3 +1996,6 @@ Timestamp,Asset,Ticker,Price,Change_Percent,Date,Time
 ,Infosys ADR,INFY,10.64,0.0,2026-09-29,21:25:02
 ,ICICI Bank ADR,IBN,27.25,0.0,2026-09-29,21:25:02
 ,Dr. Reddy ADR,RDY,12.84,-0.08,2026-09-29,21:25:02
+,Gold Spot,GC=F,4213.0,-0.02,2026-09-30,00:42:20
+,Silver Spot,SI=F,61.72,-0.03,2026-09-30,00:42:20
+,Crude Oil Spot,CL=F,89.27,-0.03,2026-09-30,00:42:20
